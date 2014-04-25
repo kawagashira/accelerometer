@@ -1,14 +1,17 @@
 Accelerometer Analysis for Peer Assignment:
 Getting and Cleaning Data in Coursera
 
+### This file.
 README.md
-This file.
 
+### Procedure description for cleaning up and analyzing data.
 CodeBook.md
-Procedure description for cleaning up and analyzing data.
 
+### Analysis file
 run_analytics.R
-Analysis file
 
-accelerometer.txt
 A tidy data
+accelerometer.txt
+
+### Variable description 
+feature_info.txt
