@@ -10,7 +10,7 @@ CodeBook.md
 ### Analysis file
 run_analytics.R
 
-A tidy data
+### A tidy data
 accelerometer.txt
 
 ### Variable description 
