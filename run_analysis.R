@@ -34,9 +34,6 @@ df <- data.frame(train)
 df <- rbind(df, test)
 str(df)
 
-## Write Tidy Data ##
-write.table(df, "accelerometer.txt")
-
 ## Labeling ##
 features <- read.table("data/features.txt")
 str(features)
@@ -59,6 +56,9 @@ str(d)
 act <- read.table("data/activity_labels.txt")
 str(act)
 d$activity <- factor(d$activity, labels = act$V2)
+
+## Write Tidy Data ##
+write.table(d, "accelerometer.txt")
 
 ## Average of each activity and each subject ###
 act.sub <- split(d, list(d$activity, d$subject), drop = TRUE)
